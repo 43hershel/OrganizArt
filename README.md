@@ -3,7 +3,7 @@ Un conjunto de atajos, scripts y procesos para macOS que automatizan la creació
 
 Lee mi [artículo](https://castro.eus/expriments/organizart) para una descripción completa.
 
-## Instalación 
+## Instalación 
 
 [Apple Shortcuts](https://support.apple.com/es-es/guide/shortcuts/welcome/ios) y [Automator](https://support.apple.com/es-es/guide/automator/welcome/mac) vienen instalados por defecto dentro de macOS
 
@@ -16,15 +16,15 @@ Lee mi [artículo](https://castro.eus/expriments/organizart) para una descripci�
 
 Con esto, tienes todo listo y las carpetas se adaptaran automáticamente.
 
-## Modificación del script (Avanzado)
+## Modificación del script (Avanzado)
 
 Si quieres modificar el script para que se adapte a tus necesidades mejor, solo tienes que saber un poco de Bash y la estructura de atajos de Apple.
 
-### Atajos 
+### Atajos 
 
 Si quieres crear o cambiar carpetas solo debes tener en cuenta la variable a la que está señalando. Por ejemplo, `_Caché` está dentro de la carpeta de Vídeos porque la variable de creación de carpetas apunta a `Vídeos`, no a la de `Entrada proporcionada`. Si prefieres un vídeo explicativo [aquí](https://www.youtube.com/watch?v=L12y1jUlKfo&t=54s) tienes uno. 
 
-### Automator 
+### Automator 
 
 Para el workflow de Automator, puedes usar ChatGPT si no sabes programar. Pero solo has de fijarte en qué tipos de archivos quieres dentro de cada variable. Si quieres separarlos en más directorios, cambia ese tipo de archivo a otro directorio.
 
